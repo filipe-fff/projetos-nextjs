@@ -1,5 +1,5 @@
 export default function Page() {
   return (
-    <p>Hello, World!</p>
+    <p className="text-purple-800 bg-blue-100">Hello, World!</p>
   );
 }
