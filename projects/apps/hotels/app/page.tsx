@@ -1,5 +1,15 @@
+import { CardsWrapper } from "../../../packages/ui/dashboard/cards";
+import Header from "./ui/header";
+
 export default function Page() {
   return (
-    <p className="text-purple-800 bg-blue-100">Hello, World!</p>
+    <>
+      <Header />
+      <main>
+        <CardsWrapper title="My Hotel">
+          <p>Test</p>
+        </CardsWrapper>
+      </main>
+    </>
   );
 }
