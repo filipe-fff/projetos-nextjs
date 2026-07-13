@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className="relative w-full h-[380px] overflow-hidden">
+            <div className="relative w-full h-[180px] overflow-hidden">
                 <Image
                     src="/hotel-beach.jpg"
                     alt="Hotel Beach"

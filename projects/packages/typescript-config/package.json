@@ -1,5 +1,9 @@
 {
   "name": "@repo/typescript-config",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "exports": {
+    "./tsconfig.json": "./tsconfig.json",
+    "./nextjs.json": "./nextjs.json"
+  }
 }

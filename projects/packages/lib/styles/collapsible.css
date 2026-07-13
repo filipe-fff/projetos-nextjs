@@ -1,0 +1,16 @@
+@reference "tailwindcss";
+
+@layer component {
+    .collapsible {
+        @apply relative w-fit bg-white rounded-sm shadow-black/50 shadow-md;
+    }
+    .collapsible__trigger {
+        @apply min-w-[200px] cursor-pointer;
+    }
+    .collapsible__content {
+        @apply absolute top-full left-0 w-full bg-white rounded-b-sm z-50 shadow-black/50 shadow-md overflow-auto;
+    }
+    .collapsible--open {
+        @apply rounded-b-none;
+    }
+}

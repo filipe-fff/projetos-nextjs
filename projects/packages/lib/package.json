@@ -1,0 +1,12 @@
+{
+  "name": "@repo/lib",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./*"
+  },
+  "peerDependencies": {
+    "react": "^19.2.7"
+  }
+}

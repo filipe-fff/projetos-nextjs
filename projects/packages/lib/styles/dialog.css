@@ -1,0 +1,38 @@
+@reference "tailwindcss";
+
+@layer components {
+    .dialog__trigger {
+        @apply flex w-full;
+    }
+    .dialog__overlay {
+        @apply fixed inset-0 bg-black/50 z-50;
+    }
+    .dialog__content {
+        @apply
+            p-2
+            w-full
+            max-w-[95%]
+            lg:max-w-[800px]
+            max-h-[80%]
+            fixed
+            top-1/2 left-1/2
+            -translate-x-1/2
+            -translate-y-1/2
+            bg-white z-[51] rounded-md
+            border
+            shadow-black/50
+            shadow-md
+            overflow-hidden
+            flex
+            flex-col;
+    }
+    .dialog__title {
+        @apply w-full p-2 text-gray-500;
+    }
+    .dialog__description {
+        @apply p-2 min-h-0 flex-1 overflow-auto;
+    }
+    .dialog__actions {
+        @apply p-2 w-full min-h-[50px] flex justify-end;
+    }
+}

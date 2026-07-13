@@ -1,5 +1,15 @@
 {
   "name": "@repo/eslint-config",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./next-js": "./next-js.js",
+    "./base": "./base.js"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.2.0"
+  }
 }
