@@ -4,7 +4,7 @@ import Header from "./ui/dashboard/header";
 import Form from "./ui/dashboard/form";
 import FormDialog from "./ui/dashboard/form-dialog";
 import Sidebar from "@repo/ui/dashboard/sidebar";
-import { CardsWrapper } from "@repo/ui/dashboard/material/cards";
+import HotelsCardList from "./ui/dashboard/hotels-card-list";
 
 export default function Page() {
   return (
@@ -19,9 +19,7 @@ export default function Page() {
             <Form />
           </Sidebar>
           <div className="m-auto w-full">
-            <CardsWrapper title="My Hotel">
-              <p>Test</p>
-            </CardsWrapper>
+            <HotelsCardList />
           </div>
         </div>
       </main>
